@@ -1,0 +1,6 @@
+pandas
+tsfresh
+lightgbm
+seaborn
+matplotlib
+scikit-learn
