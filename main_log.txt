@@ -1,0 +1,24 @@
+>>>> Successfully split data !
+>>> RMSE and MAE for Linear Regression Model is 4.2173, 3.2020
+#### The time for training Linear Regression Model is 0.40s
+/opt/conda/envs/py39/lib/python3.9/site-packages/sklearn/svm/_base.py:299: ConvergenceWarning: Solver terminated early (max_iter=10000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+>>> RMSE and MAE for SVM Model is 6.0078, 4.9288
+#### The time for training SVM Model is 287.44s
+>>> RMSE and MAE for Gradient Boosting Regressor Model is 3.8648, 2.9206
+#### The time for training Gradient Boosting Model is 35.76s
+>>> RMSE and MAE for Gaussian Process Regressor Model is 4.2752, 3.2570
+#### The time for training Gaussian Process Regressor Model is 2.35s
+>>>> Successfully Identify Method !
+#### The time for training random Forest Classifier Model is 89.75s
+=======================
+=== AMS Performance ===
+>>> TPR is 0.6585
+>>> FPR is 0.1138
+>>> TNR is 0.8862
+>>> FNR is 0.3415
+>>> Accuracy score is 0.6585
+>>> Precision score is 0.6585
+>>> Recall score is 0.6585
+>>> F1 score is 0.6585
+>>> RMSE and MAE for The Proposed Method is 2.9524, 1.8990

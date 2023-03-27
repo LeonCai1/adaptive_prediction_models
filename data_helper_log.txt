@@ -1,0 +1,197 @@
+/opt/conda/envs/py39/lib/python3.9/site-packages/tsfresh/utilities/dataframe_functions.py:520: UserWarning: Your time stamps are not uniformly sampled, which makes rolling nonsensical in some domains.
+  warnings.warn(
+Rolling:   0%|          | 0/72 [00:00<?, ?it/s]Rolling:   1%|▏         | 1/72 [00:00<00:14,  4.92it/s]Rolling:   8%|▊         | 6/72 [00:01<00:19,  3.44it/s]Rolling:  10%|▉         | 7/72 [00:02<00:28,  2.26it/s]Rolling:  12%|█▎        | 9/72 [00:02<00:19,  3.30it/s]Rolling:  15%|█▌        | 11/72 [00:03<00:14,  4.28it/s]Rolling:  19%|█▉        | 14/72 [00:03<00:08,  6.60it/s]Rolling:  22%|██▏       | 16/72 [00:03<00:07,  7.30it/s]Rolling:  28%|██▊       | 20/72 [00:03<00:04, 11.52it/s]Rolling:  32%|███▏      | 23/72 [00:03<00:03, 14.32it/s]Rolling:  36%|███▌      | 26/72 [00:03<00:03, 12.72it/s]Rolling:  39%|███▉      | 28/72 [00:04<00:03, 12.30it/s]Rolling:  42%|████▏     | 30/72 [00:05<00:10,  4.14it/s]Rolling:  46%|████▌     | 33/72 [00:05<00:07,  5.53it/s]Rolling:  50%|█████     | 36/72 [00:05<00:05,  6.99it/s]Rolling:  53%|█████▎    | 38/72 [00:06<00:04,  8.03it/s]Rolling:  57%|█████▋    | 41/72 [00:06<00:03,  9.63it/s]Rolling:  61%|██████    | 44/72 [00:06<00:02, 10.34it/s]Rolling:  64%|██████▍   | 46/72 [00:06<00:02, 11.66it/s]Rolling:  67%|██████▋   | 48/72 [00:06<00:01, 12.05it/s]Rolling:  69%|██████▉   | 50/72 [00:06<00:01, 12.57it/s]Rolling:  72%|███████▏  | 52/72 [00:07<00:02, 10.00it/s]Rolling:  75%|███████▌  | 54/72 [00:07<00:03,  5.44it/s]Rolling:  78%|███████▊  | 56/72 [00:08<00:02,  5.62it/s]Rolling:  81%|████████  | 58/72 [00:08<00:01,  7.02it/s]Rolling:  83%|████████▎ | 60/72 [00:08<00:01,  7.70it/s]Rolling:  86%|████████▌ | 62/72 [00:08<00:01,  7.65it/s]Rolling:  89%|████████▉ | 64/72 [00:09<00:00,  9.21it/s]Rolling:  94%|█████████▍| 68/72 [00:09<00:00, 13.04it/s]Rolling:  99%|█████████▊| 71/72 [00:09<00:00, 15.92it/s]Rolling: 100%|██████████| 72/72 [00:09<00:00,  7.67it/s]
+>>> Successfully rolling time series
+Feature Extraction:   0%|          | 0/120 [00:00<?, ?it/s]Feature Extraction:   1%|          | 1/120 [01:22<2:42:53, 82.13s/it]Feature Extraction:   2%|▏         | 2/120 [01:22<1:07:18, 34.23s/it]Feature Extraction:   2%|▎         | 3/120 [01:23<36:47, 18.87s/it]  Feature Extraction:   3%|▎         | 4/120 [01:24<22:40, 11.73s/it]Feature Extraction:   4%|▍         | 5/120 [01:25<14:57,  7.80s/it]Feature Extraction:   5%|▌         | 6/120 [01:25<10:11,  5.37s/it]Feature Extraction:   6%|▌         | 7/120 [01:26<07:16,  3.86s/it]Feature Extraction:   7%|▋         | 8/120 [01:27<05:17,  2.84s/it]Feature Extraction:   8%|▊         | 9/120 [01:28<04:38,  2.50s/it]Feature Extraction:   8%|▊         | 10/120 [01:29<03:28,  1.90s/it]Feature Extraction:   9%|▉         | 11/120 [01:30<02:43,  1.50s/it]Feature Extraction:  10%|█         | 12/120 [01:30<02:12,  1.23s/it]Feature Extraction:  11%|█         | 13/120 [01:31<01:49,  1.03s/it]Feature Extraction:  12%|█▏        | 14/120 [01:31<01:42,  1.04it/s]Feature Extraction:  12%|█▎        | 15/120 [01:32<01:33,  1.12it/s]Feature Extraction:  13%|█▎        | 16/120 [01:33<01:21,  1.28it/s]Feature Extraction:  14%|█▍        | 17/120 [01:33<01:15,  1.37it/s]Feature Extraction:  15%|█▌        | 18/120 [01:34<01:17,  1.31it/s]Feature Extraction:  16%|█▌        | 19/120 [01:35<01:15,  1.33it/s]Feature Extraction:  17%|█▋        | 20/120 [01:36<01:13,  1.36it/s]Feature Extraction:  18%|█▊        | 21/120 [01:36<01:12,  1.37it/s]Feature Extraction:  18%|█▊        | 22/120 [01:37<01:08,  1.44it/s]Feature Extraction:  19%|█▉        | 23/120 [01:38<01:07,  1.44it/s]Feature Extraction:  20%|██        | 24/120 [01:38<01:04,  1.48it/s]Feature Extraction:  21%|██        | 25/120 [02:27<24:00, 15.17s/it]Feature Extraction:  22%|██▏       | 26/120 [02:33<19:21, 12.35s/it]Feature Extraction:  22%|██▎       | 27/120 [02:35<14:31,  9.37s/it]Feature Extraction:  23%|██▎       | 28/120 [02:46<15:05,  9.84s/it]Feature Extraction:  24%|██▍       | 29/120 [02:49<11:41,  7.71s/it]Feature Extraction:  25%|██▌       | 30/120 [02:53<09:50,  6.56s/it]Feature Extraction:  26%|██▌       | 31/120 [02:57<08:25,  5.68s/it]Feature Extraction:  27%|██▋       | 32/120 [03:05<09:36,  6.55s/it]Feature Extraction:  28%|██▊       | 33/120 [03:06<06:56,  4.78s/it]Feature Extraction:  28%|██▊       | 34/120 [03:09<06:21,  4.43s/it]Feature Extraction:  29%|██▉       | 35/120 [03:10<04:39,  3.29s/it]Feature Extraction:  30%|███       | 36/120 [03:11<03:32,  2.53s/it]Feature Extraction:  31%|███       | 37/120 [03:12<02:44,  1.98s/it]Feature Extraction:  32%|███▏      | 38/120 [03:13<02:17,  1.67s/it]Feature Extraction:  32%|███▎      | 39/120 [03:13<01:54,  1.42s/it]Feature Extraction:  33%|███▎      | 40/120 [03:14<01:35,  1.19s/it]Feature Extraction:  34%|███▍      | 41/120 [03:18<02:47,  2.12s/it]Feature Extraction:  35%|███▌      | 42/120 [03:19<02:20,  1.81s/it]Feature Extraction:  37%|███▋      | 44/120 [03:20<01:29,  1.17s/it]Feature Extraction:  38%|███▊      | 45/120 [03:21<01:16,  1.02s/it]Feature Extraction:  38%|███▊      | 46/120 [03:21<01:06,  1.11it/s]Feature Extraction:  39%|███▉      | 47/120 [03:22<00:58,  1.24it/s]Feature Extraction:  40%|████      | 48/120 [03:23<00:58,  1.23it/s]Feature Extraction:  41%|████      | 49/120 [03:34<04:34,  3.86s/it]Feature Extraction:  42%|████▏     | 50/120 [03:39<04:43,  4.04s/it]Feature Extraction:  42%|████▎     | 51/120 [03:43<04:42,  4.09s/it]Feature Extraction:  43%|████▎     | 52/120 [03:55<07:13,  6.37s/it]Feature Extraction:  44%|████▍     | 53/120 [03:56<05:15,  4.71s/it]Feature Extraction:  45%|████▌     | 54/120 [04:05<06:38,  6.03s/it]Feature Extraction:  46%|████▌     | 55/120 [04:05<04:48,  4.44s/it]Feature Extraction:  47%|████▋     | 56/120 [04:22<08:31,  8.00s/it]Feature Extraction:  48%|████▊     | 57/120 [04:28<07:51,  7.48s/it]Feature Extraction:  48%|████▊     | 58/120 [04:31<06:15,  6.05s/it]Feature Extraction:  49%|████▉     | 59/120 [04:36<06:04,  5.98s/it]Feature Extraction:  50%|█████     | 60/120 [04:39<05:00,  5.01s/it]Feature Extraction:  51%|█████     | 61/120 [04:44<04:56,  5.02s/it]Feature Extraction:  52%|█████▏    | 62/120 [04:48<04:20,  4.48s/it]Feature Extraction:  52%|█████▎    | 63/120 [04:54<04:41,  4.94s/it]Feature Extraction:  53%|█████▎    | 64/120 [04:54<03:24,  3.64s/it]Feature Extraction:  54%|█████▍    | 65/120 [05:00<04:01,  4.40s/it]Feature Extraction:  55%|█████▌    | 66/120 [05:01<02:55,  3.24s/it]Feature Extraction:  56%|█████▌    | 67/120 [05:02<02:10,  2.47s/it]Feature Extraction:  57%|█████▋    | 68/120 [05:02<01:39,  1.92s/it]Feature Extraction:  57%|█████▊    | 69/120 [05:03<01:16,  1.50s/it]Feature Extraction:  58%|█████▊    | 70/120 [05:03<01:00,  1.21s/it]Feature Extraction:  59%|█████▉    | 71/120 [05:04<00:51,  1.04s/it]Feature Extraction:  60%|██████    | 72/120 [05:04<00:44,  1.09it/s]Feature Extraction:  61%|██████    | 73/120 [05:10<01:48,  2.30s/it]Feature Extraction:  62%|██████▏   | 74/120 [05:11<01:23,  1.81s/it]Feature Extraction:  62%|██████▎   | 75/120 [05:12<01:10,  1.56s/it]Feature Extraction:  63%|██████▎   | 76/120 [05:12<00:55,  1.26s/it]Feature Extraction:  64%|██████▍   | 77/120 [05:13<00:48,  1.14s/it]Feature Extraction:  65%|██████▌   | 78/120 [05:23<02:36,  3.72s/it]Feature Extraction:  66%|██████▌   | 79/120 [05:23<01:53,  2.77s/it]Feature Extraction:  67%|██████▋   | 80/120 [05:45<05:40,  8.52s/it]Feature Extraction:  68%|██████▊   | 81/120 [05:51<05:04,  7.81s/it]Feature Extraction:  68%|██████▊   | 82/120 [05:52<03:35,  5.67s/it]Feature Extraction:  69%|██████▉   | 83/120 [05:58<03:31,  5.71s/it]Feature Extraction:  70%|███████   | 84/120 [05:59<02:35,  4.31s/it]Feature Extraction:  72%|███████▏  | 86/120 [06:05<02:07,  3.76s/it]Feature Extraction:  72%|███████▎  | 87/120 [06:11<02:20,  4.25s/it]Feature Extraction:  73%|███████▎  | 88/120 [06:12<01:46,  3.33s/it]Feature Extraction:  74%|███████▍  | 89/120 [06:12<01:22,  2.65s/it]Feature Extraction:  75%|███████▌  | 90/120 [06:19<01:51,  3.71s/it]Feature Extraction:  76%|███████▌  | 91/120 [06:25<02:02,  4.24s/it]Feature Extraction:  77%|███████▋  | 92/120 [06:31<02:16,  4.87s/it]Feature Extraction:  78%|███████▊  | 93/120 [06:32<01:40,  3.71s/it]Feature Extraction:  78%|███████▊  | 94/120 [06:37<01:49,  4.21s/it]Feature Extraction:  79%|███████▉  | 95/120 [06:38<01:19,  3.17s/it]Feature Extraction:  80%|████████  | 96/120 [06:39<01:01,  2.56s/it]Feature Extraction:  81%|████████  | 97/120 [06:40<00:46,  2.03s/it]Feature Extraction:  82%|████████▏ | 98/120 [06:46<01:12,  3.28s/it]Feature Extraction:  82%|████████▎ | 99/120 [06:50<01:11,  3.39s/it]Feature Extraction:  83%|████████▎ | 100/120 [06:55<01:21,  4.07s/it]Feature Extraction:  84%|████████▍ | 101/120 [06:56<00:57,  3.02s/it]Feature Extraction:  85%|████████▌ | 102/120 [06:59<00:52,  2.94s/it]Feature Extraction:  86%|████████▌ | 103/120 [07:01<00:47,  2.79s/it]Feature Extraction:  87%|████████▋ | 104/120 [07:04<00:46,  2.91s/it]Feature Extraction:  88%|████████▊ | 105/120 [07:11<01:00,  4.00s/it]Feature Extraction:  88%|████████▊ | 106/120 [07:11<00:41,  2.99s/it]Feature Extraction:  89%|████████▉ | 107/120 [07:13<00:33,  2.57s/it]Feature Extraction:  90%|█████████ | 108/120 [07:15<00:28,  2.34s/it]Feature Extraction:  91%|█████████ | 109/120 [07:16<00:22,  2.09s/it]Feature Extraction:  92%|█████████▏| 110/120 [07:17<00:16,  1.66s/it]Feature Extraction:  92%|█████████▎| 111/120 [07:20<00:18,  2.02s/it]Feature Extraction:  93%|█████████▎| 112/120 [07:24<00:20,  2.53s/it]Feature Extraction:  94%|█████████▍| 113/120 [07:26<00:16,  2.42s/it]Feature Extraction:  95%|█████████▌| 114/120 [07:29<00:16,  2.69s/it]Feature Extraction:  96%|█████████▌| 115/120 [07:31<00:12,  2.58s/it]Feature Extraction:  97%|█████████▋| 116/120 [07:36<00:12,  3.14s/it]Feature Extraction:  98%|█████████▊| 117/120 [07:45<00:14,  4.86s/it]Feature Extraction:  98%|█████████▊| 118/120 [07:45<00:07,  3.60s/it]Feature Extraction:  99%|█████████▉| 119/120 [07:46<00:02,  2.79s/it]Feature Extraction: 100%|██████████| 120/120 [07:48<00:00,  2.38s/it]Feature Extraction: 100%|██████████| 120/120 [07:48<00:00,  3.90s/it]
+>>> Successfully extract features using tsfresh, the number of features is 777
+>>> Save df_rolled in data/trace_201708/df_rolled_12.csv, length is 172243
+464 features with a single unique value.
+
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+/Projects/adaptive_prediction_models/third_party/feature_selector.py:223: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  record_collinear = record_collinear.append(temp_df, ignore_index = True)
+68 features with a correlation magnitude greater than 0.98.
+
+Training Gradient Boosting Model
+
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:726: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+/opt/conda/envs/py39/lib/python3.9/site-packages/lightgbm/sklearn.py:736: UserWarning: 'verbose' argument is deprecated and will be removed in a future release of LightGBM. Pass 'log_evaluation()' callback via 'callbacks' argument instead.
+  _log_warning("'verbose' argument is deprecated and will be removed in a future release of LightGBM. "
+
+492 features with zero or negative importance after one-hot encoding.
+
+Removed 552 features.
+>>> After FeatureSelector, the number of features is 225
+>>> After select_features, the number of features is 223
+>>> Save features in data/trace_201708/extracted_features_12_106.csv, length is 172243
+>>> Save features in data/trace_201708/labels_12_106.csv, length is 172243
