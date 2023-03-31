@@ -1,0 +1,37 @@
+>>>> Successfully split data !
+====== Linear Regression Model ======
+>>> Save lr_model to out/kaggle_demand/lr_model.pickle
+>>> RMSE and MAE for Linear Regression Model is 0.5503, 0.3900
+#### The time for training Linear Regression Model is 0.14s
+====== SVM Model ======
+/opt/conda/envs/py39/lib/python3.9/site-packages/sklearn/svm/_base.py:299: ConvergenceWarning: Solver terminated early (max_iter=10000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+>>> Save svm_model to out/kaggle_demand/svm_model.pickle
+>>> RMSE and MAE for SVM Model is 0.5598, 0.4117
+#### The time for training SVM Model is 236.93s
+====== Gradient Boosting Model ======
+>>> Save gb_model to out/kaggle_demand/gb_model.pickle
+>>> RMSE and MAE for Gradient Boosting Regressor Model is 0.5440, 0.3833
+#### The time for training Gradient Boosting Model is 18.45s
+====== Gaussian Process Regressor Model ======
+>>> Save gpr_model to out/kaggle_demand/gpr_model.pickle
+>>> RMSE and MAE for Gaussian Process Regressor Model is 0.5560, 0.3948
+#### The time for training Gaussian Process Regressor Model is 1.77s
+====== Get Train and Test Methods ======
+>>> Save train_method to out/kaggle_demand/train_method.pickle
+>>> Save test_method to out/kaggle_demand/test_method.pickle
+>>>> Successfully Identify Method !
+====== Adaptive Model Selection Model ======
+>>> Save ams to out/kaggle_demand/ams.pickle
+#### The time for training random Forest Classifier Model is 74.47s
+=======================
+=== AMS Performance ===
+>>> TPR is 0.3891
+>>> FPR is 0.2036
+>>> TNR is 0.7964
+>>> FNR is 0.6109
+>>> Accuracy score is 0.3891
+>>> Precision score is 0.3891
+>>> Recall score is 0.3891
+>>> F1 score is 0.3891
+>>> RMSE and MAE for The Proposed Method is 0.4431, 0.2819
