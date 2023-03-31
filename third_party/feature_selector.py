@@ -83,7 +83,7 @@ class FeatureSelector():
     
     """
     
-    def __init__(self, data, labels=None):
+    def __init__(self, data, labels=None, n_jobs=-1):
         
         # Dataset and optional training labels
         self.data = data
@@ -111,6 +111,8 @@ class FeatureSelector():
         self.ops = {}
         
         self.one_hot_correlated = False
+
+        self.n_jobs = n_jobs
         
     def identify_missing(self, missing_threshold):
         """Find the features with a fraction of missing values above `missing_threshold`"""
@@ -301,7 +303,7 @@ class FeatureSelector():
         
         # Iterate through each fold
         lgb_params = {
-          'n_jobs': -1,
+          'n_jobs': self.n_jobs,
           'n_estimators': 2000,
           'learning_rate': 0.05,
           'importance_type': importance_type
@@ -345,7 +347,7 @@ class FeatureSelector():
             if importance_type == 'permutation':
                 # calculate permutation importance
                 r = permutation_importance(model, valid_features, valid_labels,
-                           n_repeats=n_permutations, n_jobs = -1)
+                           n_repeats=n_permutations, n_jobs = self.n_jobs)
                 feature_importance_values += r.importances_mean / n_iterations
               
             else: 
