@@ -1,0 +1,37 @@
+>>>> Successfully split data !
+====== Linear Regression Model ======
+>>> Save lr_model to out/alibaba/lr_model.pickle
+>>> RMSE and MAE for Linear Regression Model is 4.2173, 3.2020
+#### The time for training Linear Regression Model is 0.09s
+====== SVM Model ======
+/opt/conda/envs/py39/lib/python3.9/site-packages/sklearn/svm/_base.py:299: ConvergenceWarning: Solver terminated early (max_iter=10000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+>>> Save svm_model to out/alibaba/svm_model.pickle
+>>> RMSE and MAE for SVM Model is 6.0078, 4.9288
+#### The time for training SVM Model is 249.10s
+====== Gradient Boosting Model ======
+>>> Save gb_model to out/alibaba/gb_model.pickle
+>>> RMSE and MAE for Gradient Boosting Regressor Model is 3.8648, 2.9206
+#### The time for training Gradient Boosting Model is 33.69s
+====== Gaussian Process Regressor Model ======
+>>> Save gpr_model to out/alibaba/gpr_model.pickle
+>>> RMSE and MAE for Gaussian Process Regressor Model is 4.2752, 3.2570
+#### The time for training Gaussian Process Regressor Model is 1.65s
+====== Get Train and Test Methods ======
+>>> Save train_method to out/alibaba/train_method.pickle
+>>> Save test_method to out/alibaba/test_method.pickle
+>>>> Successfully Identify Method !
+====== Adaptive Model Selection Model ======
+>>> Save ams to out/alibaba/ams.pickle
+#### The time for training random Forest Classifier Model is 92.76s
+=======================
+=== AMS Performance ===
+>>> TPR is 0.6585
+>>> FPR is 0.1138
+>>> TNR is 0.8862
+>>> FNR is 0.3415
+>>> Accuracy score is 0.6585
+>>> Precision score is 0.6585
+>>> Recall score is 0.6585
+>>> F1 score is 0.6585
+>>> RMSE and MAE for The Proposed Method is 2.9524, 1.8990

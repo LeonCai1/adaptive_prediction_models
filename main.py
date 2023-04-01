@@ -318,15 +318,24 @@ class AMS:
 
 
 if __name__ == "__main__":
+    # ====== Alibaba ======
     # base_folder = 'data/trace_201708/'
     # window_size = 60//5
-    # ams = AMS(base_folder, window_size)
-    # ams.run()
+    # ams = AMS(base_folder, window_size, out_folder='out/alibaba/')
 
+    # Train
+    # ams.run()
+    
+    # Test
+    # ams.run(test=True)
+
+    # ====== Kaggle Demand ======
     base_folder = 'data/kaggle_demand/'
     window_size = 12
     ams = AMS(base_folder, window_size, out_folder='out/kaggle_demand/')
+
     # Train
     # ams.run()
+
     # Test
     ams.run(test=True)
