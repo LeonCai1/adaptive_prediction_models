@@ -108,6 +108,10 @@ class AMS:
         self.ams, self.pred_method = None, None
 
     def run(self, test=False):
+        """
+        train from scratch and save models if test is False.
+        just load models if test is True.
+        """
         # split data
         self._split_data()
 
