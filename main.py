@@ -8,6 +8,7 @@ from sklearn.ensemble import GradientBoostingRegressor, RandomForestClassifier
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import DotProduct, WhiteKernel
 from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import (
     accuracy_score,
     confusion_matrix,
@@ -129,7 +130,7 @@ class AMS:
         # get AMS model
         self.ams, self.pred_method = self._get_ams(load)
 
-        # test AMS model
+        #test AMS model
         self.test()
 
     def _split_data(self):
@@ -298,7 +299,9 @@ class AMS:
         if load:
             ams = self._load_obj('ams')
         else:
-            ams = RandomForestClassifier(n_estimators=50, random_state=42)
+
+            ams = RandomForestClassifier(random_state=42, n_jobs=-1, max_depth=20, min_samples_leaf=5,
+                                         n_estimators=200)
             ams = ams.fit(self.train_features, self.train_method)
         # Save Model
         self._dump_obj(ams, 'ams')
@@ -339,7 +342,7 @@ if __name__ == "__main__":
     ams = AMS(base_folder, window_size, out_folder='out/kaggle_demand/')
 
     # Train
-    # ams.run()
+    ams.run()
 
     # Test
-    ams.run(test=True)
+    #ams.run(test=True)
