@@ -74,7 +74,6 @@ class AMS:
         1: 'svm_model',
         2: 'gb_model',
         3: 'gpr_model',
-        4: 'lgb_model',
     }
 
     def __init__(self, base_folder, window_size, out_folder='out'):
@@ -108,7 +107,6 @@ class AMS:
         self.svm_model, self.svm_preds = None, None
         self.gb_model, self.gb_preds = None, None
         self.gpr_model, self.gpr_preds = None, None
-        self.lgb_model, self.lgb_preds = None, None
 
         # identify method
         self.train_method, self.test_method = None, None
@@ -132,7 +130,6 @@ class AMS:
         self.svm_model, self.svm_preds = self._get_svm_model(load)
         self.gb_model, self.gb_preds = self._get_gb_model(load)
         self.gpr_model, self.gpr_preds = self._get_gpr_model(load)
-        self.lgb_model, self.lgb_preds = self._get_lgb_model(load)
 
         # identify method
         self.train_method, self.test_method = self._get_train_test_method(load)
@@ -275,16 +272,14 @@ class AMS:
         if load:
             lgb_model = self._load_obj('lgb_model')
         else:
-            #tuned
-            # lgb_model = lgb.LGBMRegressor(bagging_fraction=0.8, bagging_frequency=4, boosting_type='gbdt',
-            #                         class_weight=None, colsample_bytree=1.0, feature_fraction=0.5,
-            #                         importance_type='split', learning_rate=0.1, max_depth=30,
-            #                         min_child_samples=20, min_child_weight=30, min_data_in_leaf=70,
-            #                         min_split_gain=0.0001, n_estimators=200, n_jobs=-1,
-            #                         num_leaves=1200, objective=None, random_state=None, reg_alpha=0.0,
-            #                         reg_lambda=0.0, silent=True, subsample=1.0,
-            #                         subsample_for_bin=200000, subsample_freq=0)
-            lgb_model = lgb.LGBMRegressor(objective='regression')
+            lgb_model = lgb.LGBMRegressor(bagging_fraction=0.8, bagging_frequency=4, boosting_type='gbdt',
+                                    class_weight=None, colsample_bytree=1.0, feature_fraction=0.5,
+                                    importance_type='split', learning_rate=0.1, max_depth=30,
+                                    min_child_samples=20, min_child_weight=30, min_data_in_leaf=70,
+                                    min_split_gain=0.0001, n_estimators=200, n_jobs=-1,
+                                    num_leaves=1200, objective=None, random_state=None, reg_alpha=0.0,
+                                    reg_lambda=0.0, silent=True, subsample=1.0,
+                                    subsample_for_bin=200000, subsample_freq=0)
 
             lgb_model.fit(self.train_rolled, self.train_labels.reshape(-1), verbose= -1)
         # Save Model:
@@ -311,10 +306,9 @@ class AMS:
             svm_p = self.svm_model.predict(self.train_rolled).reshape(-1)
             gb_p = self.gb_model.predict(self.train_rolled).reshape(-1)
             gpr_p = self.gpr_model.predict(self.train_rolled).reshape(-1)
-            lgb_p = self.lgb_model.predict(self.train_rolled).reshape(-1)
 
             # identify method for train dataset
-            stacked_p = np.stack([lr_p, svm_p, gb_p, gpr_p, lgb_p], #, lgb_p],
+            stacked_p = np.stack([lr_p, svm_p, gb_p, gpr_p], #, lgb_p],
                                  axis=1)
             train_method = (
                 np.abs(stacked_p - self.train_labels).argmin(axis=1).reshape(-1)
@@ -322,7 +316,7 @@ class AMS:
 
             # identify method for test dataset
             stacked_preds = np.stack(
-                [self.lr_preds, self.svm_preds, self.gb_preds, self.gpr_preds,self.lgb_preds], #self.lgb_preds],
+                [self.lr_preds, self.svm_preds, self.gb_preds, self.gpr_preds], #self.lgb_preds],
                 axis=1,
             )
             test_method = (
@@ -367,7 +361,7 @@ class AMS:
         print(f">>> RMSE and MAE for The Proposed Method is {rmse:.4f}, {mae:.4f}")
 
 
-if __name__ == "__main__":
+if __name__ == "__ams_wstlgbm__":
     # ====== Alibaba ======
     base_folder = 'data/trace_201708/'
     window_size = 60//5
@@ -389,4 +383,3 @@ if __name__ == "__main__":
 
     # Test
     # ams.run(test=True)
-
