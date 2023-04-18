@@ -124,6 +124,17 @@ out/
 | GPR (Gaussian Process Regressor) | 4.2752 | 3.2570 |
 | Proposed                         | 2.9524 | 1.8990 |
 
+After using tsfel and no overlap between windows:
+
+| method | mse | mae | time |
+| --- | --- | --- | --- |
+| Linear Regression | 2.9321 | 2.2226 | 0.04s |
+| SVM | 2.5042 | 1.6472 | 4.47s |
+| Gradient Boosting | 2.3409 | 1.7571 | 1.81s |
+| Gaussian Process Regressor | 2.9559 | 2.2814 | 0.99s |
+| Light gbm | 1.9441 | 1.3883 | 0.22s |
+| AMS | 1.4993 | 0.9339 | 0.96s |
+
 3. Time of some processes
 
 | Process                                      | Time          |
@@ -148,13 +159,18 @@ out/
 
 2. RMSE and MAE for Different Methods
 
-| Method                           | RMSE   | MAE    |
-| -------------------------------- | ------ | ------ |
-| Linear Regression                | 0.5503 | 0.3900 |
-| SVM                              | 0.5598 | 0.4117 |
-| GB (Gradient Boosting)           | 0.5440 | 0.3833 |
-| GPR (Gaussian Process Regressor) | 0.5560 | 0.3948 |
-| Proposed                         | 0.4431 | 0.2819 |
+| Method                             | RMSE   | MAE    |
+|------------------------------------|--------|--------|
+| Linear Regression                  | 0.5503 | 0.3900 |
+| SVM                                | 0.5598 | 0.4117 |
+| GB (Gradient Boosting)             | 0.5440 | 0.3833 |
+| GPR (Gaussian Process Regressor)   | 0.5560 | 0.3948 |
+| Proposed                           | 0.4431 | 0.2819 |
+| Proposed with tsfel                | 0.4177 | 0.27   |
+| Proposed with tsfel + lgbm base    | 0.4    | 0.26   |
+| Proposed with tsfel + lgbm - tuned | 0.3841 | 0.2472 |
+
+
 
 3. Time of some processes
 
